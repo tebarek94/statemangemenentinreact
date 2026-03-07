@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* background */
+
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+/* card */
+
+.auth-card {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* lock icon */
+
+.lock-icon {
+  font-size: 35px;
+  color: #4facfe;
+  margin-bottom: 10px;
+}
+
+/* title */
+
+.auth-card h2 {
+  margin-bottom: 20px;
+}
+
+/* inputs */
+
+.auth-card input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* button */
+
+.auth-card button {
+  width: 100%;
+  padding: 10px;
+  background: #4facfe;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.auth-card button:hover {
+  background: #3a8de0;
+}
+
+/* login link */
+
+.auth-card p {
+  margin-top: 15px;
+}
+
+.auth-card span {
+  color: #4facfe;
+  cursor: pointer;
+  font-weight: bold;
+}
